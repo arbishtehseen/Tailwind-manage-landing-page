@@ -6,7 +6,9 @@ A responsive, modern landing page for the "Manage" platform built with **Tailwin
 
 ## 🚀 Demo & Repository
 
-* **Repository:** [https://github.com/arbishtehseen/Tailwind-manage-landing-page](https://github.com/arbishtehseen/Tailwind-manage-landing-page)
+* **Repository:** [https://github.com/arbishtehseen/Tailwind-manage-landing-page]
+* (https://github.com/arbishtehseen/Tailwind-manage-landing-page)
+* **Live Demo:** [https://arbishtehseen.github.io/Tailwind-manage-landing-page](https://arbishtehseen.github.io/Tailwind-manage-landing-page)
 
 ---
 
