@@ -558,9 +558,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 480px) {
   .container {
-    max-width: 640px;
+    max-width: 480px;
   }
 }
 
@@ -570,21 +570,15 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 976px) {
   .container {
-    max-width: 1024px;
+    max-width: 976px;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1440px) {
   .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
+    max-width: 1440px;
   }
 }
 
@@ -645,10 +639,6 @@ video {
 
 .mt-32 {
   margin-top: 8rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .block {
@@ -771,10 +761,6 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.self-end {
-  align-self: flex-end;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -893,10 +879,6 @@ video {
   font-weight: 700;
 }
 
-.leading-tight {
-  line-height: 1.25;
-}
-
 .text-brightRed {
   --tw-text-opacity: 1;
   color: hsl(12 88% 59% / var(--tw-text-opacity, 1));
@@ -948,6 +930,8 @@ body {
 
 /* Hamburger Menu */
 
+/* Hamburger Menu Animation Fix */
+
 .hamburger {
   cursor: pointer;
   width: 24px;
@@ -977,22 +961,21 @@ body {
   transform: translateY(14px);
 }
 
-/* Hamburger Animation on Open */
+/* Jab button par .open class lagegi */
 
-.open {
+button.open {
   transform: rotate(90deg);
-  transform: translateY(0px);
 }
 
-.open .hamburger-top {
+button.open .hamburger-top {
   transform: rotate(45deg) translateY(6px) translate(6px);
 }
 
-.open .hamburger-middle {
+button.open .hamburger-middle {
   display: none;
 }
 
-.open .hamburger-bottom {
+button.open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
@@ -1001,9 +984,9 @@ body {
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-gray-300:hover {
+.hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
 
 .hover\:text-brightRed:hover {
@@ -1019,16 +1002,6 @@ body {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-@media (min-width: 640px) {
-  .sm\:w-auto {
-    width: auto;
-  }
-
-  .sm\:self-center {
-    align-self: center;
-  }
 }
 
 @media (min-width: 768px) {
